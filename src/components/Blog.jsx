@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -51,7 +51,7 @@ const posts = [
         },
       },
       {
-        id: 1,
+        id: 3,
         title: 'Wachan the Great',
         href: '#',
         description:
@@ -74,7 +74,7 @@ const posts = [
         },
       },
       {
-        id: 1,
+        id: 4,
         title: 'Wachan the Great',
         href: '#',
         description:
@@ -97,7 +97,7 @@ const posts = [
         },
       },
       {
-        id: 1,
+        id: 6,
         title: 'Wachan the Great',
         href: '#',
         description:
@@ -120,7 +120,7 @@ const posts = [
         },
       },
       {
-        id: 1,
+        id: 8,
         title: 'Wachan the Great',
         href: '#',
         description:
@@ -148,9 +148,19 @@ const posts = [
   
 
   export default function Blog() {
+    const [readPosts, setReadPosts] = useState([]);
+
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
+
+    const toggleRead = (id) => {
+        setReadPosts((prevReadPosts) =>
+            prevReadPosts.includes(id)
+                ? prevReadPosts.filter((postId) => postId !== id)
+                : [...prevReadPosts, id]
+        );
+    };
 
     return (
         <div className="bg-slate-100 py-24 sm:py-32 relative overflow-hidden">
@@ -171,7 +181,14 @@ const posts = [
                 <div className="mx-auto mt-4 sm:mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-8 lg:mx-0 lg:max-w-none lg:grid-cols-3 relative z-10">
                     {posts.map((post, index) => (
                         <article key={post.id} className="flex max-w-xl flex-col items-start justify-between" data-aos="fade-up" data-aos-delay={index * 100}>
-                            <div className="bg-gray-900 focus:outline-none rounded-lg border border-gray-700 p-8 w-full">
+                            <div className="bg-gray-900 focus:outline-none rounded-lg border border-gray-700 p-8 w-full relative">
+                                <button
+                                    onClick={() => toggleRead(post.id)}
+                                    className="absolute top-2 right-2 bg-white text-gray-900 rounded-full p-2 w-8 h-8 flex items-center justify-center"
+                                >
+                                    {readPosts.includes(post.id) ? '✓' : ''}
+                                </button>
+                                <span className="absolute top-10 right-0 text-xs text-gray-500">Mark as read</span>
                                 <div className="flex items-center gap-x-4 text-xs">
                                     <time dateTime={post.datetime} className="text-gray-500">
                                         {post.date}
@@ -190,7 +207,6 @@ const posts = [
                                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-white">{post.description}</p>
                                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-emerald-200">{post.descriptionn}</p>
                                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-red-300">{post.descriptionnn}</p>
-
                                 </div>
                                 <div className="relative mt-8 flex items-center gap-x-4">
                                     <img alt="" src={post.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-800" />
