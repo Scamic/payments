@@ -39,7 +39,7 @@ const posts = [
         descriptionnn:
           'reward - 10$  ',
         datetime: '2020-03-16',
-        category: { title: 'payments paypal', href: 'Shahdehabm@gmail.com' },
+        category: { title: 'payments paypal', href: 'mailto:Shahdehabm@gmail.com' },
   
         author: {
           name: 'saif',
