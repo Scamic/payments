@@ -182,7 +182,7 @@ const posts = [
       },
 
       {
-        id: 8,
+        id: 9,
         title: 'Taurus',
         href: '#',
         description:
