@@ -203,6 +203,51 @@ const posts = [
             'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
         },
       },
+    {
+        id: 10,
+        title: 'Aquaa',
+        href: '#',
+        description:
+          'scored - 3400 ',
+       descriptionn:
+          'account use 1   ',
+          descriptionnn:
+          'reward earn- 15$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:tomfonteneau44@gmail.com' },
+  
+        author: {
+          name: 'Aquaa',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+    {
+        id: 11,
+        title: 'Reiju',
+        href: '#',
+        description:
+          'scored - 3400 ',
+       descriptionn:
+          'account use 1   ',
+          descriptionnn:
+          'reward earn- 15$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'https://www.paypal.com/paypalme/arpinpalari' },
+  
+        author: {
+          name: 'arpin',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+
     
       
     
