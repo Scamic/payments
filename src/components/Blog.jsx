@@ -137,7 +137,7 @@ const posts = [
         },
       },
     {
-        id: 6,
+        id: 7,
         title: 'Fearless',
         href: '#',
         description:
@@ -153,6 +153,51 @@ const posts = [
         author: {
           name: 'fearless',
           role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+    {
+        id: 8,
+        title: 'venpers',
+        href: '#',
+        description:
+          'scored - 3500 ',
+       descriptionn:
+          'account use 1   ',
+          descriptionnn:
+          'reward earn- 20$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments paypal', href: 'mailto:venporsioventura@gmail.com' },
+  
+        author: {
+          name: 'venpers',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+
+      {
+        id: 8,
+        title: 'Taurus',
+        href: '#',
+        description:
+          'scored - 3300 ',
+       descriptionn:
+          'account use 1   ',
+          descriptionnn:
+          'reward earn- 10$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments paypal', href: 'https://www.paypal.com/paypalme/aonovikov?country.x=C2&locale.x=en_US' },
+  
+        author: {
+          name: 'Taurus',
+          role: 'Co leader',
           href: '#',
           imageUrl:
             'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
