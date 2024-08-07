@@ -29,18 +29,17 @@ const posts = [
     },
     {
         id: 2,
-        title: 'god',
+        title: 'saif',
         href: '#',
         description:
-          'scored - 6900   ',
+          'scored - 3200   ',
        descriptionn:
-          'account use 10  ',
+          'account use 1  ',
         date: 'june 7, 2024',
         descriptionnn:
-          'reward - 1000$  ',
+          'reward - 10$  ',
         datetime: '2020-03-16',
-        category: { title: 'payments paypal', href: 'https://www.paypal.me/wachann' },
-              category: { title: 'payments paypal', href: 'https://www.paypal.me/wachann' },
+        category: { title: 'payments paypal', href: 'Shahdehabm@gmail.com' },
   
         author: {
           name: 'Wachan',
