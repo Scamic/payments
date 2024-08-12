@@ -4,29 +4,29 @@ import 'aos/dist/aos.css';
 
 
 const posts = [
-    {
-      id: 1,
-      title: 'Wachan the Great',
-      href: '#',
-      description:
-        'scored - 3600   ',
-     descriptionn:
-        'account use 1   ',
-        descriptionnn:
-        'reward earn- 100$ ',
-      date: 'june 7, 2024',
-      datetime: '2020-03-16',
-      category: { title: 'payments paypal', href: 'https://www.paypal.me/wachann' },
-            category: { title: 'payments paypal', href: 'https://www.paypal.me/wachann' },
+    // {
+    //   id: 1,
+    //   title: 'Wachan the Great',
+    //   href: '#',
+    //   description:
+    //     'scored - 3600   ',
+    //  descriptionn:
+    //     'account use 1   ',
+    //     descriptionnn:
+    //     'reward earn- 100$ ',
+    //   date: 'june 7, 2024',
+    //   datetime: '2020-03-16',
+    //   category: { title: 'payments paypal', href: 'https://www.paypal.me/wachann' },
+    //         category: { title: 'payments paypal', href: 'https://www.paypal.me/wachann' },
 
-      author: {
-        name: 'Wachan',
-        role: 'Admin',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-    },
+    //   author: {
+    //     name: 'Wachan',
+    //     role: 'Admin',
+    //     href: '#',
+    //     imageUrl:
+    //       'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    //   },
+    // },
     {
         id: 2,
         title: 'saif',
@@ -136,28 +136,28 @@ const posts = [
             'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
         },
       },
-    {
-        id: 7,
-        title: 'Fearless',
-        href: '#',
-        description:
-          'scored - 3200 ',
-       descriptionn:
-          'account use 1   ',
-          descriptionnn:
-          'reward earn- 10$ ',
-        date: 'june 7, 2024',
-        datetime: '2020-03-16',
-        category: { title: 'payments paypal', href: 'mailto:abbasshakhshir@gmail.com' },
+    // {
+    //     id: 7,
+    //     title: 'Fearless',
+    //     href: '#',
+    //     description:
+    //       'scored - 3200 ',
+    //    descriptionn:
+    //       'account use 1   ',
+    //       descriptionnn:
+    //       'reward earn- 10$ ',
+    //     date: 'june 7, 2024',
+    //     datetime: '2020-03-16',
+    //     category: { title: 'payments paypal', href: 'mailto:abbasshakhshir@gmail.com' },
   
-        author: {
-          name: 'fearless',
-          role: 'member',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
-      },
+    //     author: {
+    //       name: 'fearless',
+    //       role: 'member',
+    //       href: '#',
+    //       imageUrl:
+    //         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    //     },
+    //   },
     {
         id: 8,
         title: 'venpers',
@@ -241,6 +241,29 @@ const posts = [
   
         author: {
           name: 'arpin',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+
+      {
+        id: 10,
+        title: '',
+        href: '#',
+        description:
+          'scored - 3400 ',
+       descriptionn:
+          'account use 1   ',
+          descriptionnn:
+          'reward earn- 15$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:tomfonteneau44@gmail.com' },
+  
+        author: {
+          name: 'Aquaa',
           role: 'member',
           href: '#',
           imageUrl:
