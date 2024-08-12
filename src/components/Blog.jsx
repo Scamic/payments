@@ -29,13 +29,13 @@ const posts = [
     // },
     {
         id: 2,
-        title: 'saif',
+        title: 'seif',
         href: '#',
         description:
-          'scored - 3200   ',
+          'scored - 2600  ',
        descriptionn:
           'account use 1  ',
-        date: 'june 7, 2024',
+        date: 'aug 11, 2024',
         descriptionnn:
           'reward - 10$  ',
         datetime: '2020-03-16',
@@ -49,38 +49,38 @@ const posts = [
             'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
         },
       },
-      {
-        id: 3,
-        title: 'lego',
-        href: '#',
-        description:
-          'scored - 3400   ',
-       descriptionn:
-          'account use 1   ',
-          descriptionnn:
-          'reward earn- 15$ ',
-        date: 'june 7, 2024',
-        datetime: '2020-03-16',
-        category: { title: 'payments paypal', href: 'mailto:daniilkovbel@gmail.com' },
-        author: {
-          name: 'lego',
-          role: 'member',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
-      },
+      // {
+      //   id: 3,
+      //   title: 'lego',
+      //   href: '#',
+      //   description:
+      //     'scored - 3400   ',
+      //  descriptionn:
+      //     'account use 1   ',
+      //     descriptionnn:
+      //     'reward earn- 15$ ',
+      //   date: 'june 7, 2024',
+      //   datetime: '2020-03-16',
+      //   category: { title: 'payments paypal', href: 'mailto:daniilkovbel@gmail.com' },
+      //   author: {
+      //     name: 'lego',
+      //     role: 'member',
+      //     href: '#',
+      //     imageUrl:
+      //       'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      //   },
+      // },
       {
         id: 4,
-        title: 'Cemfremano',
+        title: 'INV | Cefremano ',
         href: '#',
         description:
-          'scored - 3400  ',
+          'scored - 2600  ',
        descriptionn:
           'account use 1   ',
           descriptionnn:
-          'reward earn- 15$ ',
-        date: 'june 7, 2024',
+          'reward earn- 10$ ',
+        date: 'aug 11, 2024',
         datetime: '2020-03-16',
         category: { title: 'payments paypal', href: 'mailto:solteszbalazs66@gmail.com' },
             
@@ -97,11 +97,11 @@ const posts = [
         title: 'Wallace',
         href: '#',
         description:
-          'scored - 3350   ',
+          'scored -  2400',
        descriptionn:
           'account use 1   ',
           descriptionnn:
-          'reward earn- 10$ ',
+          'reward earn- 3$ ',
         date: 'june 7, 2024',
         datetime: '2020-03-16',
         category: { title: 'payments paypal', href: 'mailto:Wallacegoncalves1975@gmail.com' },
@@ -119,11 +119,11 @@ const posts = [
         title: 'Nike Ak 47/ GodNikeX',
         href: '#',
         description:
-          'scored - 3400,3300   ',
+          'scored - 2700,2600   ',
        descriptionn:
           'account use 2   ',
           descriptionnn:
-          'reward earn- 10+15=25$ ',
+          'reward earn- 10+10=20$ ',
         date: 'june 7, 2024',
         datetime: '2020-03-16',
         category: { title: 'payments paypal', href: 'mailto:drinkhype7@gmail.com' },
@@ -158,83 +158,83 @@ const posts = [
     //         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     //     },
     //   },
-    {
-        id: 8,
-        title: 'venpers',
-        href: '#',
-        description:
-          'scored - 3500 ',
-       descriptionn:
-          'account use 1   ',
-          descriptionnn:
-          'reward earn- 20$ ',
-        date: 'june 7, 2024',
-        datetime: '2020-03-16',
-        category: { title: 'payments paypal', href: 'mailto:venporsioventura@gmail.com' },
+    // {
+    //     id: 8,
+    //     title: 'venpers',
+    //     href: '#',
+    //     description:
+    //       'scored - 3500 ',
+    //    descriptionn:
+    //       'account use 1   ',
+    //       descriptionnn:
+    //       'reward earn- 20$ ',
+    //     date: 'june 7, 2024',
+    //     datetime: '2020-03-16',
+    //     category: { title: 'payments paypal', href: 'mailto:venporsioventura@gmail.com' },
   
-        author: {
-          name: 'venpers',
-          role: 'member',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
-      },
+    //     author: {
+    //       name: 'venpers',
+    //       role: 'member',
+    //       href: '#',
+    //       imageUrl:
+    //         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    //     },
+    //   },
 
-      {
-        id: 9,
-        title: 'Taurus',
-        href: '#',
-        description:
-          'scored - 3300 ',
-       descriptionn:
-          'account use 1   ',
-          descriptionnn:
-          'reward earn- 10$ ',
-        date: 'june 7, 2024',
-        datetime: '2020-03-16',
-        category: { title: 'payments paypal', href: 'https://www.paypal.com/paypalme/aonovikov?country.x=C2&locale.x=en_US' },
+      // {
+      //   id: 9,
+      //   title: 'Taurus',
+      //   href: '#',
+      //   description:
+      //     'scored - 3300 ',
+      //  descriptionn:
+      //     'account use 1   ',
+      //     descriptionnn:
+      //     'reward earn- 10$ ',
+      //   date: 'june 7, 2024',
+      //   datetime: '2020-03-16',
+      //   category: { title: 'payments paypal', href: 'https://www.paypal.com/paypalme/aonovikov?country.x=C2&locale.x=en_US' },
   
-        author: {
-          name: 'Taurus',
-          role: 'Co leader',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
-      },
-    {
-        id: 10,
-        title: 'Aquaa',
-        href: '#',
-        description:
-          'scored - 3400 ',
-       descriptionn:
-          'account use 1   ',
-          descriptionnn:
-          'reward earn- 15$ ',
-        date: 'june 7, 2024',
-        datetime: '2020-03-16',
-        category: { title: 'payments button', href: 'mailto:tomfonteneau44@gmail.com' },
+      //   author: {
+      //     name: 'Taurus',
+      //     role: 'Co leader',
+      //     href: '#',
+      //     imageUrl:
+      //       'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      //   },
+      // },
+    // {
+    //     id: 10,
+    //     title: 'Aquaa',
+    //     href: '#',
+    //     description:
+    //       'scored - 3400 ',
+    //    descriptionn:
+    //       'account use 1   ',
+    //       descriptionnn:
+    //       'reward earn- 15$ ',
+    //     date: 'june 7, 2024',
+    //     datetime: '2020-03-16',
+    //     category: { title: 'payments button', href: 'mailto:tomfonteneau44@gmail.com' },
   
-        author: {
-          name: 'Aquaa',
-          role: 'member',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
-      },
+    //     author: {
+    //       name: 'Aquaa',
+    //       role: 'member',
+    //       href: '#',
+    //       imageUrl:
+    //         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    //     },
+    //   },
     {
         id: 11,
-        title: 'Reiju',
+        title: 'Reiju,Soxee',
         href: '#',
         description:
-          'scored - 3400 ',
+          'scored - 2600,2400 ',
        descriptionn:
-          'account use 1   ',
+          'account use 2   ',
           descriptionnn:
-          'reward earn- 15$ ',
+          'reward earn- 13$ ',
         date: 'june 7, 2024',
         datetime: '2020-03-16',
         category: { title: 'payments button', href: 'https://www.paypal.com/paypalme/arpinpalari' },
@@ -249,21 +249,21 @@ const posts = [
       },
 
       {
-        id: 10,
-        title: '',
+        id: 12,
+        title: 'HULK',
         href: '#',
         description:
-          'scored - 3400 ',
+          'scored -2600,2400,2350 ',
        descriptionn:
-          'account use 1   ',
+          'account use 3 but won from 2  ',
           descriptionnn:
-          'reward earn- 15$ ',
+          'reward earn- 13$ ',
         date: 'june 7, 2024',
         datetime: '2020-03-16',
-        category: { title: 'payments button', href: 'mailto:tomfonteneau44@gmail.com' },
+        category: { title: 'payments button', href: 'mailto:luciferpetr@gmail.com' },
   
         author: {
-          name: 'Aquaa',
+          name: '',
           role: 'member',
           href: '#',
           imageUrl:
@@ -271,9 +271,274 @@ const posts = [
         },
       },
 
-    
-      
-    
+      {
+        id: 13,
+        title: 'Alzer',
+        href: '#',
+        description:
+          'scored - 2700 ',
+       descriptionn:
+          'account use 1   ',
+          descriptionnn:
+          'reward earn- 10$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: '#' },
+  
+        author: {
+          name: 'alzer',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+
+      {
+        id: 14,
+        title: 'ThekingYt,Luiscort',
+        href: '#',
+        description:
+          'scored - 2700 ,2300',
+       descriptionn:
+          'account use 2   ',
+          descriptionnn:
+          'reward earn- 10$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:lrmp2003@gmail.com' },
+  
+        author: {
+          name: 'ASL Luiscort',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+
+      {
+        id: 15,
+        title: 'Not',
+        href: '#',
+        description:
+          'scored - 2600 ',
+       descriptionn:
+          'account use 1   ',
+          descriptionnn:
+
+          'reward earn- 10$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:#' },
+  
+        author: {
+          name: 'R✨',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+
+      {
+        id: 16,
+        title: 'Miko',
+        href: '#',
+        description:
+          'scored - 2600,2500,2500 ',
+       descriptionn:
+          'account use 3   ',
+          descriptionnn:
+          'reward earn- 26$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:kusainovmiras2002@gmail.com' },
+  
+        author: {
+          name: 'MIKO 1,2,3',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+      {
+        id: 17,
+        title: 'madara',
+        href: '#',
+        description:
+          'scored - 2400 ',
+       descriptionn:
+          'account use 1 ',
+          descriptionnn:
+          'reward earn- 3$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:Madara0ftw@gmail.com' },
+  
+        author: {
+          name: 'Madara',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+      {
+        id: 18,
+        title: 'GK DUCK',
+        href: '#',
+        description:
+          'scored - 2400 ',
+       descriptionn:
+          'account use 1 ',
+          descriptionnn:
+          'reward earn- 3$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'https://wise.com/pay/me/marcodanielr2' },
+  
+        author: {
+          name: 'GK DUck',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+      {
+        id: 19,
+        title: 'Nadir wise app email attached',
+        href: '#',
+        description:
+          'scored - 2500 ',
+       descriptionn:
+          'account use 1 ',
+          descriptionnn:
+          'reward earn- 8$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:nadirboom65@gmail.com' },
+  
+        author: {
+          name: 'Nadir',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+      // {
+      //   id: 20,
+      //   title: 'int Cho',
+      //   href: '#',
+      //   description:
+      //     'scored -  ',
+      //  descriptionn:
+      //     'account use 1 ',
+      //     descriptionnn:
+      //     'reward earn-  ',
+      //   date: 'june 7, 2024',
+      //   datetime: '2020-03-16',
+      //   category: { title: 'payments button', href: 'https://cash.app/$JaedonSeo' },
+  
+      //   author: {
+      //     name: 'Nadir',
+      //     role: 'member',
+      //     href: '#',
+      //     imageUrl:
+      //       'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      //   },
+      // },
+      {
+        id: 21,
+        title: 'BT | Sir Adriel',
+        href: '#',
+        description:
+          'scored - 2500 ',
+       descriptionn:
+          'account use 1 ',
+          descriptionnn:
+          'reward earn- 8$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:Tomiscr10@gmail.com' },
+  
+        author: {
+          name: 'Nadir',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+      {
+        id: 12,
+        title: 'Rin',
+        href: '#',
+        description:
+          'scored - 2500 ',
+       descriptionn:
+          'account use 1 ',
+          descriptionnn:
+          'reward earn- 8$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:suijetsukuoka@gmail.com' },
+  
+        author: {
+          name: 'Rin',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+      {
+        id: 22,
+        title: 'Fabiano',
+        href: '#',
+        description:
+          'scored - 2500 ',
+       descriptionn:
+          'account use 1 ',
+          descriptionnn:
+          'reward earn- 8$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:fabianoclash54@gmail.com' },
+  
+        author: {
+          name: 'Fabiano',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
+      {
+        id: 23,
+        title: 'Gaspart',
+        href: '#',
+        description:
+          'scored - 2500 ',
+       descriptionn:
+          'account use 1 ',
+          descriptionnn:
+          'reward earn- 8$ ',
+        date: 'june 7, 2024',
+        datetime: '2020-03-16',
+        category: { title: 'payments button', href: 'mailto:mbarrantes2019@gmail.com' },
+  
+        author: {
+          name: 'Gaspart',
+          role: 'member',
+          href: '#',
+          imageUrl:
+            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+      },
   ]
   
 
