@@ -126,7 +126,7 @@ const posts = [
           'reward earn- 10+10=20$ ',
         date: 'june 7, 2024',
         datetime: '2020-03-16',
-        category: { title: 'payments paypal', href: 'mailto:drinkhype7@gmail.com' },
+        category: { title: 'payments paypal', href: 'mailto:drinkhype77@gmail.com' },
   
         author: {
           name: 'godNikex',
