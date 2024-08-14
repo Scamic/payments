@@ -552,7 +552,7 @@ const posts = [
           'reward earn- 3$ ',
         date: 'june 7, 2024',
         datetime: '2020-03-16',
-        category: { title: 'payments button', href: 'mailto:blejndevid@gmail.com' },
+        category: { title: 'Pay with PayPal', href: 'https://www.paypal.com/paypalme/blejndevid' },
   
         author: {
           name: 'tw1nkLerin',
